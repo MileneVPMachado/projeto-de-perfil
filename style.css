@@ -1,0 +1,34 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #121212;
+  color: rgb(255, 255, 255);
+  font-family: Arial;
+}
+.card {
+  background: #1e1e1e;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  width: 300px;
+}
+.foto {
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+.links a {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  background: #fdfdfd;
+  text-decoration: none;
+  color: rgb(8, 8, 8);
+  border-radius: 8px;
+  transition: 0.3s;
+
+  }
+  .links a:hover {
+  background: #b0a7a7;
+}
